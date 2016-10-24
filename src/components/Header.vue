@@ -53,6 +53,7 @@
 						padding 0 3px
 					a
 						padding 0 2px
+						cursor pointer
 				
 		.search
 			margin-top 35px
@@ -232,7 +233,6 @@
 	</div>
 </template>
 <script>
-	let aa = "北京";
 	export default{
 		data(){
 			return{
@@ -354,14 +354,14 @@
 						]
 					}
 				],
-				aa 
+				aa : "北京"
 			};
 		},
 		methods : {
 			handleClick(index){
-			
+			this.aa = index;
+			console.log(this)
 			}
 		}
 	}
-		console.log(aa)	
 </script>

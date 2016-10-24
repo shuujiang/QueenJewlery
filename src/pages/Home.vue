@@ -237,7 +237,6 @@
 						margin-right 10px
 					em
 						float left
-						
 						margin-top 25px
 						margin-right 10px
 						&:before
