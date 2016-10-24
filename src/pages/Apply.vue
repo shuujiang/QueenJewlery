@@ -121,9 +121,9 @@
 </style>
 <template>
 	<div class="apply w1180">
-		<div class="meter step2">
+		<div class="meter step1">
 			<div class="circle done">1</div>
-			<div class="circle done">2</div>
+			<div class="circle normal">2</div>
 			<div class="circle normal">3</div>
 			<div class="progress"></div>
 		</div>

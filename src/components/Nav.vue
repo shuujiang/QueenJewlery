@@ -46,10 +46,6 @@
 					{
 						name : "创意申请",
 						href : "/apply"
-					},
-					{
-						name : "活动",
-						href : "/activity"
 					}
 				]
 			};
